@@ -1,0 +1,10 @@
+{
+  "name": "sample_schema",
+  "type": "record",
+  "fields": [
+    {"name":"category", "type":"string"},
+    {"name":"name", "type":"string"},
+    {"name":"height", "type":"double"},
+    {"name":"active", "type":"boolean"}
+  ]
+}
