@@ -3,6 +3,19 @@ name = "rs-avro-transcode"
 version = "0.1.0"
 edition = "2021"
 
+description = "Converts AVRO(e.g, no compression -> deflate)"
+license = "Apache-2.0"
+documentation = "https://docs.rs/crate/rs-avro-transcode/latest"
+repository = "https://github.com/takanoriyanagitani/rs-avro-transcode"
+keywords = [
+	"avro",
+	"transcode",
+]
+categories = [
+	"command-line-interface",
+	"command-line-utilities",
+]
+
 [lints.rust]
 unsafe_code = "forbid"
 
